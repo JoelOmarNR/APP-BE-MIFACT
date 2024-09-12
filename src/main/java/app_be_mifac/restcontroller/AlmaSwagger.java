@@ -95,7 +95,7 @@ public interface AlmaSwagger {
             @ApiResponse(responseCode = "404", description = "Not Found")
     })
     @PutMapping("/update")
-    public ResponseEntity<HttpResponse> updateCustomer(@RequestBody Producto producto);
+    public ResponseEntity<HttpResponse> updateProducto(@RequestBody Producto producto);
 
 
     @Operation(

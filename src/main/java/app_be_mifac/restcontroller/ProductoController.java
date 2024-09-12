@@ -94,7 +94,7 @@ public class ProductoController implements AlmaSwagger {
     }
 
     @Override
-    public ResponseEntity<HttpResponse> updateCustomer(Producto producto) {
+    public ResponseEntity<HttpResponse> updateProducto(Producto producto) {
         Map<String, Object> data = new HashMap<>();
         data.put("producto", productoService.updateProducto(producto));
 
